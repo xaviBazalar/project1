@@ -40,3 +40,107 @@ header .logo i{
     height: 300px;
     overflow: hidden;
 }
+
+.banner img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.nota_mascota{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.nota_mascota h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.nota_mascota a{
+    color: red;
+    display: flex;
+    margin-top: 20px;
+}
+
+main{
+    text-align: center;
+}
+
+.c_one{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.club{
+    background: #e6faff;
+    padding: 20px 0;
+}
+
+.club h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.club p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.club h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.club_b h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.club_b{
+    background: #e3e2ff;
+    padding-bottom: 20px;
+}
+
+.club_b section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img_r{
+    border-radius: 100%;
+}
+
+footer{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    margin-left: 20px;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+footer ul li a{
+    color: white;
+}
